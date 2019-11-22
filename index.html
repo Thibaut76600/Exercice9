@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercice 9</title>
+</head>
+
+<body>
+
+    <img src="assets/img/elephant.jpg" onmouseover="this.src='assets/img/souris.jpg';"
+        onmouseout="this.src='assets/img/elephant.jpg';">
+    </img>
+
+    <hr>
+
+    <form action="">
+        <label for="saisie"></label>
+        <input type="text" id="write" name="write" placeholder="Ecrire quelque chose" onkeyup="affichage()">
+    </form>
+
+    <hr>
+
+    <img src="assets/img/burj.jpg" alt="Photo Dubaï" id="photo" width="250px"
+        onClick="document.getElementById('photo').style.width='800px';"
+        ondblClick="document.getElementById('photo').style.width='250px';">
+
+    <hr>
+
+
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
